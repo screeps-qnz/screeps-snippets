@@ -48,38 +48,38 @@ There will be a voting system installed for automatically merging PRs once this 
 
 ### globals
   
-| type | name |author |Description                    |
+| type | file |author |Description                    |
 | ----- |---------| -------|----------------------- |
-|JS |adjust_CPU_limit_based_on_bucket_levels.js|semperrabbit|Adjust your CPU limit per tick based on current and target bucket levels|
-|JS|boostComponentsObject.js|shibdib| boost components|
-|JS|calculateTickTimeInGame.js|Kamots|Provides global.tickTime as seconds|
-|JS|command to clear in-game console.js|GimmeCookies|Clear the in-game console|
-|JS|determineFileFunctionLineWithinCode.js|knightshade| determine file, function, line within code|
-|JS|Global functions etc. example.js|maxion| example on how to use global |
-|JS|hasRespawned.js|semperrabbit| check if you just respawned|
-|JS|optimizedIsActive.js| tigga | a better OwnedStructure.isActive()|
-|JS|resourceColors.js| engineeryo| hex color codes for minerals, energy and power |
-|JS|respawn assist to clear memory and flags.js|semperrabbit|clears memory and flags|
-|JS|Reverse lookup tables for errors, colors, and resources.js|warinternal| reverse lookup tables for errors colors and resources|
-|JS|setTimeout_setInterval.js|semperrabbit| setTimeout() / setInterval() from JS, but it uses screeps ticks instead of ms|
-|JS|to get memory size.js|tyr| get memory size|
-|JS|voiceConsole.js|stybbe| say() but for real|
-|JS|Cached dynamic properties.js|warinternal| cached properties|
-|JS|Entity Message Bus.js|warinternal|receive messages on room object|
-|JS|Memory segment emulation.js|dissi|segment emulator|
-|JS|queueAction() system.js|Helam|queue actions|
-|JS|upkeep_costs.js|warinternal| constants for upkeep of decaying structures|
+|JS|[adjust_CPU_limit_based_on_bucket_levels.](src/globals/JavaScript/adjust_CPU_limit_based_on_bucket_levels.js)|semperrabbit|Adjust your CPU limit per tick based on current and target bucket levels|
+|JS|[boostComponentsObject.js](src/globals/JavaScript/boostComponentsObject.js)|shibdib| boost components|
+|JS|[calculateTickTimeInGame.js](src/globals/JavaScript/calculateTickTimeInGame.js)|Kamots|Provides global.tickTime as seconds|
+|JS|[command to clear in-game console.js](src/globals/JavaScript/command to clear in-game console.js)|GimmeCookies|Clear the in-game console|
+|JS|](src/globals/JavaScript/determineFileFunctionLineWithinCode.js)|knightshade| determine file, function, line within code|
+|JS|](src/globals/JavaScript/Global functions etc. example.js)|maxion| example on how to use global |
+|JS|](src/globals/JavaScript/hasRespawned.js)|semperrabbit| check if you just respawned|
+|JS|](src/globals/JavaScript/optimizedIsActive.js)| tigga | a better OwnedStructure.isActive()|
+|JS|](src/globals/JavaScript/resourceColors.js)| engineeryo| hex color codes for minerals, energy and power |
+|JS|](src/globals/JavaScript/respawn assist to clear memory and flags.js)|semperrabbit|clears memory and flags|
+|JS|](src/globals/JavaScript/Reverse lookup tables for errors, colors, and resources.js)|warinternal| reverse lookup tables for errors colors and resources|
+|JS|](src/globals/JavaScript/setTimeout_setInterval.js)|semperrabbit| setTimeout() / setInterval() from JS, but it uses screeps ticks instead of ms|
+|JS|](src/globals/JavaScript/to get memory size.js)|tyr| get memory size|
+|JS|](src/globals/JavaScript/voiceConsole.js)|stybbe| say() but for real|
+|JS|](src/globals/JavaScript/Cached dynamic properties.js)|warinternal| cached properties|
+|JS|](src/globals/JavaScript/Entity Message Bus.js)|warinternal|receive messages on room object|
+|JS|](src/globals/JavaScript/Memory segment emulation.js)|dissi|segment emulator|
+|JS|](src/globals/JavaScript/queueAction() system.js)|Helam|queue actions|
+|JS|](src/globals/JavaScript/upkeep_costs.js)|warinternal| constants for upkeep of decaying structures|
 
 
 ### logging
   
-| type | name |author |Description                    |
+| type | file |author |Description                    |
 | ----- |---------| -------|----------------------- |
 | - | - | - | - |
 
 ### misc
   
-| type | name |author |Description                    |
+| type | file |author |Description                    |
 | ----- |---------| -------|----------------------- |
 |JS| actually commented evil tower code.js| daboross| lodash chain tower code|
 |JS|bunkerLayoutsHumanReadable.js|sparr| readable bunker layouts sample|
@@ -117,7 +117,7 @@ There will be a voting system installed for automatically merging PRs once this 
 
 ### prototypes
   
-| type | name |author |Description                    |
+| type | file |author |Description                    |
 | ----- |---------| -------|----------------------- |
 |JS|Creep action error handler.js|warinternal| log creep action error codes|
 |JS|Creep.getOffExit.js|engineeryo| move creep of room exits|
