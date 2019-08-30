@@ -25,13 +25,13 @@ There will be a voting system installed for automatically merging PRs once this 
 
 ### classes
   
-| folder | name |author |Description                    |
-| ----- |---------| -------|----------------------- |
-|JS| bitSet.js | warinternal| bit set class|
-|JS| class.RoomVisualCache_module.js| semperrabbit|RoomVisual cache|
-|JS|creepsSingingSongs.js| Lucifer| creeps singing songs|
-|JS|Es6LRUMapWithSizeAndTtl.js | warinternal| A cache that can exhibit both least recently used (LRU) and max time to live (TTL) eviction policies.|
-|JS|WorldPosition.js| warinternal| Uniform screeps world position with E0S0 as origin.|
+| file |author |Description                    |
+| ----- | -------|----------------------- |
+|[bitSet.js](classes/JavaScript/bitSet.js) | warinternal| bit set class|
+|[class.RoomVisualCache_module.js]](classes/JavaScript/class.RoomVisualCache_module.js)| semperrabbit|RoomVisual cache|
+|[creepsSingingSongs.js](classes/JavaScript/creepsSingingSongs.js)| Lucifer| creeps singing songs|
+|[Es6LRUMapWithSizeAndTtl.js](classes/JavaScript/Es6LRUMapWithSizeAndTtl.js) | warinternal| A cache that can exhibit both least recently used (LRU) and max time to live (TTL) eviction policies.|
+|[WorldPosition.js](classes/JavaScript/WorldPosition.js)| warinternal| Uniform screeps world position with E0S0 as origin.|
 
 ### client-abuse
   
